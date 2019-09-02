@@ -55,7 +55,7 @@ class Owner
     Cat.all.each do |cat| 
       cat.mood = "nervous" 
       cat.owner = nil}
-    
+    end  
   end
     
     
