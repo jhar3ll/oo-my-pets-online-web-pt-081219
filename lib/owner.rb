@@ -59,6 +59,9 @@ class Owner
     end  
   end
 end 
+
+def list_pets
+  Dog.all.each 
     
     
 end
