@@ -14,4 +14,8 @@ attr_reader :name
   def self.all 
     @@all 
   end 
+  
+  def cats 
+    Dog.all.select {|dog| dog.owner == self}
+  end 
 end
